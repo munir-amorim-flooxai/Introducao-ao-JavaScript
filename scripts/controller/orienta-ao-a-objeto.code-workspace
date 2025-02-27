@@ -1,13 +1,16 @@
 {
 	"folders": [
 		{
+			"name": "controller",
+			"path": "."
+		},
+		{
+			"name": "orienta-ao-a-objeto",
 			"path": "../../../orienta-ao-a-objeto"
 		},
 		{
+			"name": "scripts",
 			"path": ".."
-		},
-		{
-			"path": "."
 		}
 	],
 	"settings": {}

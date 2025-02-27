@@ -8,6 +8,7 @@ class CalcController {
         this._timeEl = document.querySelector("#hora");
         this._currentDate;
         this.initialize();
+        this.initNuttonsEvents();
 
     }
 
@@ -24,7 +25,14 @@ class CalcController {
     }
 
     initNuttonsEvents(){
-        let buttons = document.querySelectorAll("#buttons > g, #parts > g");
+
+        let buttons = document.querySelector("#buttons > g.btn-9");
+        
+        buttons.forEach(btn=>{
+            btn.addEventListener('click', e => {
+                console.log(e);
+            });
+        })
 
     }
 
